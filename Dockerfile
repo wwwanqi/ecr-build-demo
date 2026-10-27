@@ -17,6 +17,8 @@ RUN dnf -y --setopt=install_weak_deps=False install tar gzip \
 
 WORKDIR /app
 COPY README.md /app/README.md
+# One file per run, so the pushed digest can be traced back to the commit that made it.
+COPY marker.txt /app/marker.txt
 
 # Make the image self-describing, so a pull proves which architecture actually built it.
 RUN set -eux; \

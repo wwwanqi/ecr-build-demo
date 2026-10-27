@@ -1,0 +1,4 @@
+Pushed 2026-10-27 to drive one BUILD_PLATFORM run end to end: the builder on
+Fargate in 191497920728 launches a sandbox, the sandbox fetches this commit
+through the CodeConnections Git proxy, and BuildKit pushes the image to
+ecr-build-demo by digest.
