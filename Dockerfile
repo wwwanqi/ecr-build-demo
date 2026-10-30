@@ -25,4 +25,10 @@ RUN set -eux; \
     uname -m > /app/arch.txt; \
     cat /app/arch.txt
 
+# A build long enough to outlast one heartbeat interval, so the builder's lease loop has to
+# beat while the sandbox is still building rather than only once before it starts. A sleep
+# rather than a heavy compile, so the duration is predictable and the test is about the
+# heartbeat and not about how fast a package mirror is today.
+RUN sleep 200
+
 CMD ["/bin/sh", "-c", "echo \"ecr-build-demo built on $(cat /app/arch.txt)\""]
