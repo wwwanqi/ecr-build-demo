@@ -1,1 +1,1 @@
-P2 immutable except *_latest 2026-11-11T17:28:39Z
+P3 PUBLISH denied PutImage 2026-11-11T17:32:49Z
