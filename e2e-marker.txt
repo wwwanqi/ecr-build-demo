@@ -1,1 +1,1 @@
-P1 immutable branch tag 2026-11-11T17:24:24Z
+P2 immutable except *_latest 2026-11-11T17:28:39Z
