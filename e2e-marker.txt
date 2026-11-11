@@ -1,1 +1,1 @@
-P3 PUBLISH denied PutImage 2026-11-11T17:32:49Z
+P4 PUBLISH denied BatchGetImage 2026-11-11T17:36:47Z
