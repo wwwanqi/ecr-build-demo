@@ -1,1 +1,1 @@
-P4 PUBLISH denied BatchGetImage 2026-11-11T17:36:47Z
+P5 trust refuses PUBLISH's session 2026-11-11T17:40:57Z
