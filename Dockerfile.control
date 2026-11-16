@@ -1,0 +1,4 @@
+# syntax=docker/dockerfile:1
+# Control: the official frontend honors the requested single platform.
+FROM scratch
+COPY marker.txt /

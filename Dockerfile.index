@@ -1,0 +1,5 @@
+# syntax=191497920728.dkr.starport.us-west-2.amazonaws.com/ecr-build-demo@sha256:5d3d2a0ddd5443a2b972988ddfde2f35118a60b0f925a17955b76163f8ff8808
+# A custom frontend picked by the line above; it ignores this file and returns
+# linux/arm64 and linux/amd64 images, so the build pushes an image index.
+FROM scratch
+COPY marker.txt /
