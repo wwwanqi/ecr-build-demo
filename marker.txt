@@ -1,1 +1,2 @@
 RESOLVE_HEAD exception mapping test, CR-321148120, 2026-11-10T21:16:24Z
+e2e-git-denied 2026-11-19T20:37:55Z
