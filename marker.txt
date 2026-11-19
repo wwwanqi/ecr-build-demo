@@ -1,1 +1,2 @@
 RESOLVE_HEAD exception mapping test, CR-321148120, 2026-11-10T21:16:24Z
+e2e-happy 2026-11-19T21:32:40Z
