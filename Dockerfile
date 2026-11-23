@@ -1,3 +1,2 @@
-FROM public.ecr.aws/amazonlinux/amazonlinux:2023
-COPY marker.txt /marker.txt
-RUN echo built
+FROM ghcr.io/wwwanqi/private-test-image:1
+RUN echo hi
