@@ -1,3 +1,2 @@
 FROM public.ecr.aws/amazonlinux/amazonlinux:2023
-COPY marker.txt /marker.txt
-RUN echo built
+RUN dd if=/dev/zero of=/fill bs=1M status=none; echo filled
