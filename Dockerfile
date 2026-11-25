@@ -1,3 +1,2 @@
 FROM public.ecr.aws/amazonlinux/amazonlinux:2023
-COPY marker.txt /marker.txt
-RUN echo built
+RUN --mount=type=secret,id=tok,required=true cat /run/secrets/tok
