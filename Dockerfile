@@ -1,3 +1,4 @@
+FROM public.ecr.aws/amazonlinux/amazonlinux:2023 AS a
+RUN ln -s /l /l
 FROM public.ecr.aws/amazonlinux/amazonlinux:2023
-COPY marker.txt /marker.txt
-RUN echo built
+COPY --from=a /l/x /x
